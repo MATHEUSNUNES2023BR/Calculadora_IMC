@@ -1,0 +1,21 @@
+:root{
+    --Backgroud-Body: #ffc048;
+    --Primary-Color: #1e272e;
+    --Button-Color: #485460;
+    --Background-Table: #f53b57;
+    --Color-Button: #d2dae2;
+    --Button-Hover: rgb(72, 84, 96, 0.9);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Backgroud-Body);
+}
+#Pai{
+    display: flex;
+    width: 100vw;
+    height: 80vh;  
+}
