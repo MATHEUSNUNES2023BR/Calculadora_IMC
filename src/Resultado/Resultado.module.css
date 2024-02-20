@@ -1,10 +1,9 @@
 .resultado{
     display: flex;
-    width: 50%;
-    height: 100%;
+    width: var(--Width-Container);
     flex-direction: column;
     align-items: center;
-    margin-top: 3vw;
+    margin: 2vw auto 0 auto;
 }
 .resultado h2, h3{
     color:#1e272e;
@@ -48,6 +47,36 @@
 .resultado .c2{
     background-color: #ef5777;
 }
-.a1{
-    background-color: aliceblue !important;
+.cor{
+    color: rgb(255, 230, 0);
 }
+@media screen and (max-width:992px){ 
+    .resultado{
+        margin-top: 10vw;
+        height: 95%;
+    }
+    .resultado h2{
+        margin-top: 3vw;
+        font-size: 9vw;
+    }
+    .resultado h3{
+        margin-top: 5vw;
+        font-size: 8vw;
+    }
+    .resultado table {
+        width: 90%;
+    }
+    .resultado table thead {
+        font-size: 4.5vw;
+    }
+    .resultado table tbody tr{
+        height: 5.5vw;
+        font-size: 3.4vw;
+    }
+}
+@media screen and (max-width:576px){
+    .resultado{
+        margin:5vw auto;
+        height: 70%;
+    }
+ }

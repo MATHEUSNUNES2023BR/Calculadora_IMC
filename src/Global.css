@@ -1,11 +1,13 @@
 :root{
+    --Width-Container: 50%;
+    --Form-Input-Text: 3vw;
     --Backgroud-Body: #ffc048;
     --Primary-Color: #1e272e;
     --Button-Color: #485460;
     --Background-Table: #f53b57;
     --Color-Button: #d2dae2;
     --Button-Hover: rgb(72, 84, 96, 0.9);
-}
+}   
 *{
     margin: 0;
     padding: 0;
@@ -18,4 +20,20 @@ body{
     display: flex;
     width: 100vw;
     height: 80vh;  
+}
+.erro{
+    display: flex;
+    align-items: center;
+    color: #ff3f34;
+    font-weight: bolder;
+    font-size: 25px;
+}
+@media screen and (max-width:992px){
+    #Pai{
+        display: block;
+    }
+    :root{
+        --Width-Container: 90%;
+        --Form-Input-Text: 6vw;
+    }
 }
